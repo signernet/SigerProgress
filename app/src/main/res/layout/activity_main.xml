@@ -12,17 +12,16 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:orientation="horizontal"
         android:layout_centerHorizontal="true"
-        >
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
 
         <com.siger.example.progresspie.ProgressPie
 
             android:id="@+id/main_default_progressPie"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginLeft="40dp"
+
             />
 
         <com.siger.example.progresspie.ProgressPie
@@ -30,8 +29,8 @@
             android:id="@+id/main_ios_progressPie"
             android:layout_width="50dp"
             android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
             progress:style="ios_like" />
-
 
 
     </LinearLayout>
