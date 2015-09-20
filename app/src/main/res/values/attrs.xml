@@ -1,0 +1,18 @@
+<resources>
+    <declare-styleable name="ProgressPie">
+        <attr name="circleRingColor" format="color"></attr>
+        <attr name="needCircleRing" format="boolean"></attr>
+        <attr name="circleRingWidth" format="dimension"></attr>
+        <attr name="progressColor" format="color"></attr>
+        <attr name="progressBgColor" format="color"></attr>
+        <attr name="progressWidth" format="dimension"></attr>
+        <attr name="centerSquareWidth" format="dimension"></attr>
+        <attr name="needProgressText" format="boolean"></attr>
+        <attr name="progressTextColor" format="color"></attr>
+        <attr name="progressTextSize" format="dimension"></attr>
+        <attr name="style" format="enum">
+            <enum name="progress_with_text" value="0"></enum>
+            <enum name="ios_like" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
